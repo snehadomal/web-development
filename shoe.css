@@ -1,0 +1,55 @@
+body {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .container {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #097969;
+  }
+  
+  .text {
+    margin-top: -10px;
+    text-align: center;
+  }
+  
+  
+  
+  .size {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .lengths > span {
+    color: red;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin-left: 2px;
+  }
+  
+  .color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .color-picker > span {
+    width: 2px;
+    height: 2px;
+    background-color: red;
+    border-radius: 40%;
+    padding: 5px;
+  }
+  
+  .buy-now {
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
