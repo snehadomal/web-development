@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    .two{
+        width: 200px;
+        height: 200px;
+        background-image: url(img/asus.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+    .one::before{
+        content: "Domal ";
+    }
+</style>
+
+<body>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="">User name:</label></td>
+                    <td><input type="text" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email:</label></td>
+                    <td><input type="email" placeholder="Enter your email"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Contact number:</label></td>
+                    <td><input type="tel" placeholder="Enter your number"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password:</label></td>
+                    <td><input type="password" placeholder="Enter your password"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+    <p class="one">Shena</p>
+    <div class="two">
+       
+    </div>
+</body>
+
+</html>
